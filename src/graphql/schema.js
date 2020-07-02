@@ -8,12 +8,16 @@ const typeDefs = gql`
     encoding: String!
   }
 
-  type Query {
+  type RootQuery {
     uploads: [File]
   }
 
-  type Mutation {
+  type RootMutation {
     singleUpload(file: Upload!): File!
+  }
+  schema {
+    query: RootQuery
+    mutation: RootMutation
   }
 `;
 

@@ -1,0 +1,88 @@
+---
+title: "Apuntes de Comandos"
+author: "JuanMaster"
+date: "04-02-2020"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# R Markdown Apuntes
+### 4 Operaciones Basicas de la Aritmética
+Si tu quieres documentar la suma de dos digitos el codigo es $A+B$. En cambio para la resta es $A-B$. Tambien para multiplicar es $A \times B$ o $A\cdot B$, y para dividir es $A \div B$.
+
+### Operaciones mas complejas 
+Las potencias se expresan de la siguiente manera: $s^{x}$
+Los sub Indice: $a_{i}$
+Una fracción: $\frac{a}{b}$
+para el mas menos $\pm$
+Raiz n-ésima $\sqrt[n]{x}$
+
+#### Símbolos matemáticos - Relacionales 
+$a+b \times c \div d$
+
+$$= \approx \ne > < \ge \le $$
+### Símbolos matemáticos - Operadores
+Sumatorio $\sum_{i=0}^{n}$
+Productorio$\prod_{i=0}^{n}$
+Integral $\int_{a}^{b}$
+
+##Letras Griegas
+Alpha | $\alpha$|
+Beta | $\beta$|
+Gamma |$\gamma\  \Gamma$  |
+Delta |$\delta\  \Delta$|
+Epsilon |$\epsilon$|
+Epsilon| $\varepsilon$    |          
+Zeta |$\zeta$|
+Eta| $\eta$|
+Theta| $\theta\ \Theta$|
+Kappa| $\kappa$  |
+Lambda |$\lambda\  \Lambda$|
+Mu| $\mu$|
+Nu $\nu$              
+Xi $\xi\ \Xi$
+Pi $\pi\ \Pi$
+Rho $\rho$
+Sigma $\sigma\ \Sigma$  
+Tau $\tau$
+Upsilon $\upsilon\ \Upsilon$
+Phi $\phi\ \Phi$              
+Phi $\varphi$
+Chi $\chi$
+Psi $\omega\ \Omega$ 
+
+
+## Formulas de practica
+
+imagen: 
+![](D:\Descarga\51kXf4lc8kL._SX522_)
+Formula:
+
+*Formula 1 $$ax^{2} + bx + c = 0$$
+*Formula 2 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+$$x= \frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+$$x = \frac{-\beta\pm\sqrt{\beta^2            -4\alpha\gamma}}{2\alpha}$$.
+
+Imagen:
+![](D:\Descarga\18778)
+
+Formula N°2:
+$$\frac{1}{\pi}=\frac{2\sqrt{2}}{9801}\sum_{k=0}^{\infty}\frac{(4k)!(1103+26.390k)}{(k!)^4396^{4k}}$$
+Imagen:
+![](D:\Descarga\unnamed.png):
+Formula N°3:
+$$\begin{matrix}f:N&\longrightarrow	&Z \\ n&\longrightarrow&f(n)=[(n,0)]\end{matrix}$$
+
+
+Imagen:
+![](D:\Descarga\images.png):
+Fórmula N°4:
+$$Z=\left\{\begin{array}{rr}\left.\begin{array}{rr}Z^{+}=\{1,2,3,\ldots\}\\\{0\} \end{array}\right\}N\\ Z^{-}=\{-1,-2,-3,\ldots\}\end{array}\right.$$
+
